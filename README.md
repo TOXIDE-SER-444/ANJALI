@@ -1,6 +1,6 @@
  <img src="https://github.com/TOXIDE-SER-444/ANJALI/blob/fd2fc9f4e055cc0b48334e8ceecc5e487fb84fb2/photo/20220213_154928.png" alt="google-font" border="0"></a>
 <div align="center">
-        <img src="https://i.ibb.co/6tbmPj1/maaluttty.jpg" alt="GIF" width="250" height="250"/>
+        <img src="https://github.com/TOXIDE-SER-444/ANJALI/blob/a84996dac3b1b9bd28b578ab2f7fcf7d683b2dc7/photo/wpmobile.jpg" alt="GIF" width="250" height="250"/>
 </p>
 
 <a href="#"><img title="MAALUTTY_V3" src="https://img.shields.io/badge/MAALUTTY_V3-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
