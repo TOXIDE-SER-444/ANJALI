@@ -28,7 +28,7 @@ Project created by <a href="https://github.com/TOXIDE-SER-444">TOXIDE-SER-444</a
   
   ### Deploy server 1
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Husni-ser/MAALU) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TOXIDE-SER-444/ANJU) 
 
   ### Deploy server 2
  
@@ -109,7 +109,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
     
   [![Ameen-ser](https://github.com/Ameen-ser.png?size=100)](https://github.com/Ameen-ser) | [![nijin-husni](https://github.com/nijin-husni.png?size=100)](https://github.com/AI-VIKI) | [![Luciferking](https://github.com/Farhan-dqz.png?size=100)](https://github.com/luciferking1) 
 ----|----|----
-[Ameen-ser](https://github.com/Ameen-ser) | [nijin-husni](https://github.com/nijin-husni) | [Farhan](https://github.com/Farhandqz) 
+[Ameen-ser](https://github.com/Ameen-ser) | [TOXIDE-SER](https://github.com/TOXIDE-SER-444) | [Farhan](https://github.com/Farhandqz) 
 Developer, Base, Bug Fixes, Modules| Re-Developer, Bug Fixes, Modules, Commits |  Developer, Base, Bug Fixes, Modules
   </div>
     
