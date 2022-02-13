@@ -6,7 +6,7 @@
 <a href="#"><img title="ANJALI" src="https://img.shields.io/badge/ANJALI-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
-<a href="https://github.com/TOXIDE-SER-444"><img title="Author" src="https://img.shields.io/badge/Author-TOXIDE-SER-/ANJALI?color=blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/nijin-husni"><img title="Author" src="https://img.shields.io/badge/Author-TOXIDE-SER-/ANJALI?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
