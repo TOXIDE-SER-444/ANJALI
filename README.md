@@ -32,7 +32,7 @@ Project created by <a href="https://github.com/TOXIDE-SER-444">TOXIDE-SER-444</a
 
   ### Deploy server 2
  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TOXIDE-SER-444/ANJALI)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TOXIDE-SER-444/ANJALI_DEPLOY)
 
 ### The Hard Method
 ```js
