@@ -1,7 +1,7 @@
 /* Copyright (C) 2020 Yusuf Usta.
 Licensed under the  GPL-3.0 License;
-re edited-by TOXIDE-SER-444
-Anjali-Toxide-ser
+re edited-by nijin husni
+Maalutty-nijin-husni
 */
 
 const fs = require("fs");
