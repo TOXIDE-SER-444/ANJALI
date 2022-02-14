@@ -79,9 +79,9 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart Maalutty",
+            "RESTART_DESC": "Restart Anjali",
             "RESTART_MSG": "*Helo Master* 🥰\n\n*I Am Restarting Please Wait It Will Take 5 Minuit*",
-            "SHUTDOWN_DESC": "Shutdown Maalutty",
+            "SHUTDOWN_DESC": "Shutdown Anjali",
             "SHUTDOWN_MSG": "*Ok Bye I Am Sleeping Now* 💤\n\n*Shuting Down* ⚠️",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
@@ -217,7 +217,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Wait Your Media Converting To Sticker is Maalutty💖```"
+            "DOWNLOADING": "```Wait Your Media Converting To Sticker is Anjali💖```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -239,14 +239,14 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*ᴍᴀᴀʟᴜᴛᴛʏ ɪs ᴀʟʀᴇᴀᴅʏ ᴜᴘᴅᴀᴛᴇᴅ ʙʀᴏ💝*",
-            "NEW_UPDATE": "*New update available for Maalutty!*\n\n*To update Bot give this command: .update now*\n\n*Ask support group and update*\n*https://chat.whatsapp.com/KJWUNpT7lBzDuPGnlV69Vp*\n\nChanges:\n```",
+            "UPDATE": "*ᴀɴᴊᴀʟɪ ɪs ᴀʟʀᴇᴀᴅʏ ᴜᴘᴅᴀᴛᴇᴅ ʙʀᴏ💝*",
+            "NEW_UPDATE": "*New update available for Anjali!*\n\n*To update Bot give this command: .update now*\n\n*Ask support group and update*\n*https://chat.whatsapp.com/KJWUNpT7lBzDuPGnlV69Vp*\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "ᴍᴀᴀʟᴜᴛᴛʏ ᴜᴘᴅᴀᴛɪɴɢ...ᴘʟs ᴡ8 ʙʀᴏ💞",
+            "UPDATING": "ᴀɴᴊᴀʟɪ ᴜᴘᴅᴀᴛɪɴɢ...ᴘʟs ᴡ8 ʙʀᴏ💞",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
-            "UPDATED": "*successful Update maalutty😍*",
+            "UPDATED": "*successful Update Anjali😍*",
             "UPDATED_LOCAL": "*✅ Updated!*",
-            "AFTER_UPDATE": "ᴍᴀᴀʟᴜᴛᴛʏ ʀᴇsᴛᴀʀᴛɪɴɢ... ᴘʟs ᴡ8 ʙʀᴏ💞",
+            "AFTER_UPDATE": "ᴀɴᴊᴀʟɪ ʀᴇsᴛᴀʀᴛɪɴɢ... ᴘʟs ᴡ8 ʙʀᴏ💞",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
@@ -280,7 +280,7 @@
             "APK_MOD": "It sends some special mod apks",
             "CARBON_DESC": "It sends carbon picture",
             "TEMP": "Temperature",
-            "BOT_DESC": "Chat with Maalutty.\n Use .maalu <message>",
+            "BOT_DESC": "Chat with Anjali.\n Use .maalu <message>",
             "BOT": ":",
             "DEVICE": "It shows the details of device",
             "DESC": "Description",
@@ -303,9 +303,9 @@
             "URL": "Shorten the long link."
         },
         "conventer": {
-            "MP4TOAUDİO_DESC": "maalutty Converts video to audio.",
+            "MP4TOAUDİO_DESC": "Anjali Converts video to audio.",
             "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Media!*",
-            "MP4TOAUDİO": "♻️ ```maalutty Converting Your Media to Audio..``` ♻️",
+            "MP4TOAUDİO": "♻️ ```Anjali Converting Your Media to Audio..``` ♻️",
             "ANİM_STİCK": "Converts animated stickers to video.",
             "ANİMATE": "```Converting Animated Sticker To Video..```",
             "STİCKER_DESC": "Converts the sticker to a photo.",
@@ -466,7 +466,7 @@
             "SAVE_USAGE": "Reply a message and type .save or just use .save <Your note> without replying",
             "REPLY": "Please provide a note or reply to a message.",
             "SUCCESSFULLY_ADDED": "Successfully added new note, check your notes with .notes.",
-            "UNSUCCESSFUL": "Could not add note, please try again later or contact Maalutty developers.",
+            "UNSUCCESSFUL": "Could not add note, please try again later or contact Anjali developers.",
             "DELETE_USAGE": "Deletes *all* your saved notes.",
             "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
         },
