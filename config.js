@@ -1,77 +1,47 @@
-const { Sequelize } = require("sequelize");
-const fs = require("fs");
-if (fs.existsSync("config.env"))
-  require("dotenv").config({ path: "./config.env" });
+import { watchFile, unwatchFile } from 'fs'
+import chalk from 'chalk'
+import { fileURLToPath } from 'url'
 
-const toBool = (x) => x == "true";
+global.SESSION_ID = 'Phoenix~f62CSLRR'
+  global.owner = [
+  ['1234', 'ABHISHEK-SURESH', true],
+  [''],
+  [''] 
+]
 
-DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
+global.STICKER_PACKNAME = 'EBHI'; 
+global.STICKER_AUTHOR = '@fg98'; 
+global.MODE =  'private'
+global.mods =  
+global.prems = ['50489079501', '5219631769130', '573125484672']
+global.APIs = { // API Prefix
+  // name: 'https://website'
+  xteam: 'https://api.xteam.xyz', 
+  nrtm: 'https://fg-nrtm.ddns.net',
+  bg: 'http://bochil.ddns.net',
+  fgmods: 'https://api.fgmods.xyz'
+}
+global.APIKeys = { // APIKey Here
+  // 'https://website': 'apikey'
+  'https://api.xteam.xyz': 'd90a9e986e18778b',
+  'https://zenzapis.xyz': '675e34de8a', 
+  'https://api.fgmods.xyz': 'dEBWvxCY' //--- 100 de límite diario --- Regístrese en https://api.fgmods.xyz/
+}
 
 
-let HANDLER = "false";
+global.wait = '_⌛ Please Wait_'
+global.rwait = '⌛'
+global.dmoji = '🤭'
+global.done = '✅'
+global.error = '❌' 
+global.xmoji = '🔥' 
 
-module.exports = {
-  //For Enabling Commands Like AUTO_STATUS_RED Type true For Desenabling Type false
-  ANTILINK: toBool(process.env.ANTI_LINK) || false,
-  //_________________________________________________________________________________________________________________________________
-  LOGS: toBool(process.env.LOGS) || true,
-  //_________________________________________________________________________________________________________________________________
-  ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
-  //_________________________________________________________________________________________________________________________________
-  AUTO_REACT: process.env.AUTO_REACT || 'false',
-  //_________________________________________________________________________________________________________________________________
-  AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'false',
-  //_________________________________________________________________________________________________________________________________
-  SESSION_ID: process.env.SESSION_ID || "", //Enter Your Session Id Here
-  //_________________________________________________________________________________________________________________________________
-  SUDO: process.env.SUDO || "919074692450",
-  //_________________________________________________________________________________________________________________________________
-  LANG: process.env.LANG || "EN",
-  //_________________________________________________________________________________________________________________________________
-  HANDLERS: process.env.HANDLER === "false" || '^[.]',
-  //_________________________________________________________________________________________________________________________________
-  RMBG_KEY: process.env.RMBG_KEY || false,
-  //_________________________________________________________________________________________________________________________________
-  BRANCH: "main",
-  //_________________________________________________________________________________________________________________________________
-  STICKER_DATA: "🎯𝙿𝚑𝚘𝚎𝚗𝚒𝚡-𝙼𝙳;𝙰𝚋𝚑𝚒𝚜𝚑𝚎𝚔 𝚂𝚞𝚛𝚎𝚜𝚑☘️",
-  //_________________________________________________________________________________________________________________________________
-  WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome To @gname Total Members: @count",
-  //_________________________________________________________________________________________________________________________________
-  GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It Was Nice Seeing you",
-  //_________________________________________________________________________________________________________________________________
-  DATABASE_URL: DATABASE_URL,
-  //_________________________________________________________________________________________________________________________________
-  HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
-  //_________________________________________________________________________________________________________________________________
-  HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
-  //_________________________________________________________________________________________________________________________________
-  OWNER_NAME: process.env.OWNER_NAME || "Abhishek Suresh",
-  //_________________________________________________________________________________________________________________________________
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "919074692450",
-  //_________________________________________________________________________________________________________________________________
-  BOT_NAME: process.env.BOT_NAME || "Phoenix-MD",
-  //_________________________________________________________________________________________________________________________________
-  WORK_TYPE: process.env.WORK_TYPE || "public",
-  //_________________________________________________________________________________________________________________________________
-  BASE_URL: "https://abhi-api-7puv.onrender.com/",
-  //_________________________________________________________________________________________________________________________________
-  //Database
-  DATABASE:
-    DATABASE_URL === "./lib/database.db"
-      ? new Sequelize({
-          dialect: "sqlite",
-          storage: DATABASE_URL,
-          logging: false,
-        })
-      : new Sequelize(DATABASE_URL, {
-          dialect: "postgres",
-          ssl: true,
-          protocol: "postgres",
-          dialectOptions: {
-            native: true,
-            ssl: { require: true, rejectUnauthorized: false },
-          },
-          logging: false,
-        }),
-};
+global.multiplier = 69 
+global.WARN_COUNT = '3' // máxima advertencias
+
+let file = fileURLToPath(import.meta.url)
+watchFile(file, () => {
+  unwatchFile(file)
+  console.log(chalk.redBright("Update 'config.js'"))
+  import(`${file}?update=${Date.now()}`)
+})
