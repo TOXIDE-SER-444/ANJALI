@@ -1,7 +1,6 @@
 { 
-    "name": "dylux-bot",
+    "name": "Phoenix-MD",
     "version": "1.0.0",
-    "rversion": "1.6.0",
     "description": "Customizable WhatsApp Bot",
     "main": "index.js",
     "type": "module",
