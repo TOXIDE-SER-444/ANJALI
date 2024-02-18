@@ -2,6 +2,7 @@
   "name": "Phoenix-MD",
   "description": "A Simple WhatsApp Bot",
   "version": "1.6.0",
+  "rversion": "1.6.0",
   "main": "index.js",
   "type": "module",
   "directories": {
