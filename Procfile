@@ -1,1 +1,1 @@
-Phoenix: npm start
+web: node . --server
