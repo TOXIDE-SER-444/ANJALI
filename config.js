@@ -3,41 +3,37 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.SESSION_ID = 'Phoenix~f62CSLRR'
-  global.owner = [
-  ['1234', 'ABHISHEK-SURESH', true],
-  [''],
-  [''] 
-]
+global.OWNER_DATA = '919074692450;Abhishek Suresh'
+global.BOT_NAME = 'Phoenix-MD'
+global.BASE_URL = 'https://abhi-api-7puv.onrender.com/'
+global.STICKER_DATA = '🎯𝙿𝚑𝚘𝚎𝚗𝚒𝚡-𝙼𝙳;𝙰𝚋𝚑𝚒𝚜𝚑𝚎𝚔 𝚂𝚞𝚛𝚎𝚜𝚑☘️'; 
 
-global.STICKER_PACKNAME = 'EBHI'; 
-global.STICKER_AUTHOR = '@fg98'; 
-global.MODE =  'private'
-global.mods =  
-global.prems = ['50489079501', '5219631769130', '573125484672']
-global.APIs = { // API Prefix
-  // name: 'https://website'
+global.APIs = {
   xteam: 'https://api.xteam.xyz', 
   nrtm: 'https://fg-nrtm.ddns.net',
   bg: 'http://bochil.ddns.net',
+  lol: 'https://api.lolhuman.xyz',
+  abhi: 'https://abhi-api-7puv.onrender.com/',
   fgmods: 'https://api.fgmods.xyz'
 }
-global.APIKeys = { // APIKey Here
-  // 'https://website': 'apikey'
+global.APIKeys = {
   'https://api.xteam.xyz': 'd90a9e986e18778b',
   'https://zenzapis.xyz': '675e34de8a', 
-  'https://api.fgmods.xyz': 'dEBWvxCY' //--- 100 de límite diario --- Regístrese en https://api.fgmods.xyz/
+  'https://api.fgmods.xyz': 'dEBWvxCY'
 }
 
+global.lolkeysapi = ['GataDios']
 
 global.wait = '_⌛ Please Wait_'
 global.rwait = '⌛'
 global.dmoji = '🤭'
+global.warn = '⚠️'
 global.done = '✅'
 global.error = '❌' 
 global.xmoji = '🔥' 
 
 global.multiplier = 69 
-global.WARN_COUNT = '3' // máxima advertencias
+global.WARN_COUNT = '3'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
