@@ -7,6 +7,11 @@
   "repository": "https://github.com/AbhishekSuresh2/Phoenix-MD",
   "stack": "container",
   "env": {
+    "OWNER_DATA": {
+      "description": "Enter Your Owner Name And Number",
+      "required": false,
+      "value": "919074692450;Abhishek Suresh"
+    },
     "SESSION_ID": {
       "description": "Enter Your Session ID",
       "required": true
