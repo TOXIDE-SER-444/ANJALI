@@ -63,3 +63,5 @@ SUPPORT GROUP: <a href="https://chat.whatsapp.com/BOLb0ICN3sAJ5dloRBw5VD"><img a
 
 **Star ⭐ The Repo For Amazing Commands**
 
+## Credits
+### Thanks To [FG98F](https://github.com/FG98F) For Base
