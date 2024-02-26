@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url'
 global.SESSION_ID = 'Phoenix~f62CSLRR'
 global.OWNER_DATA = '919074692450;Abhishek Suresh'
 global.BOT_NAME = 'Phoenix-MD'
-global.BASE_URL = 'https://abhi-api-bvws.onrender.com/'
+global.BASE_URL = 'https://abhi-api-bvws.onrender.com/' //Dont Change This
 global.STICKER_DATA = '🎯𝙿𝚑𝚘𝚎𝚗𝚒𝚡-𝙼𝙳;𝙰𝚋𝚑𝚒𝚜𝚑𝚎𝚔 𝚂𝚞𝚛𝚎𝚜𝚑☘️'; 
 
 global.APIs = {
